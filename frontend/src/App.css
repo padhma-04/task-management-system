@@ -1,0 +1,94 @@
+.app {
+  font-family: "Segoe UI", sans-serif;
+  padding: 30px;
+  transition: 0.3s;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.app.dark {
+  background: #121212;
+  color: white;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ICON BUTTON */
+.icon-btn {
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* INPUT */
+.input-section {
+  margin: 20px 0;
+}
+
+input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 14px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+/* TASK CARDS */
+.task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.app.dark .task-card {
+  background: #1e1e1e;
+}
+
+/* DONE TEXT */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* ACTION BUTTONS */
+.actions button {
+  margin-left: 10px;
+}
+
+.delete {
+  background: #ef4444;
+}
+
+.delete:hover {
+  background: #dc2626;
+}
