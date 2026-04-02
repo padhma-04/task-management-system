@@ -41,13 +41,10 @@ A modern **full-stack Task Management System** built using **Django (Backend)** 
 ## 📸 Screenshots
 
 ### 🌞 Light Mode
-
-![Light Mode](screenshots/light.png)
+<img width="1252" height="530" alt="light" src="https://github.com/user-attachments/assets/b3c9343f-a78d-449a-9a38-1bead3922fdd" />
 
 ### 🌙 Dark Mode
-
-![Dark Mode](screenshots/dark.png)
-
+<img width="1244" height="413" alt="dark" src="https://github.com/user-attachments/assets/1b180c4a-6845-40b7-8ad6-404f042f87c8" />
 ---
 
 ## ⚙️ Installation & Setup
